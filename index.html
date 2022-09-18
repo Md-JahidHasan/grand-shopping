@@ -13,10 +13,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header>
+        <!----------- Nav Bar Starts ------------->
+<div class="navbar bg-green-900 py-2">
+  <div class="flex-1">
+    <img src="images/logo.jpeg" class="w-16 rounded" alt="">
+    <span class="text-red-400 font-extrabold text-3xl">Grand<span class="text-white font-extrabold text-3xl">Shop</span>!</span>
+  </div>
+  <div class="flex-none gap-2">
+    <!------navbar menu Starts here------>
+    <div class=" text-white">
+        <ul class="hidden lg:flex">
+            <li class="mr-10">
+                <span><i class="fa-solid fa-house-user"></i></span>
+                <span>HOME</span>
+            </li>
+            <li class="mr-10">
+                <span><i class="fa-solid fa-heart"></i></span>
+                <span>WISHLIST</span>
+            </li>
+            <li class="mr-10">
+                <span><i class="fa-solid fa-trash"></i></span>
+                <span>RECFYCLE BIN</span>
+            </li>
+            <li class="mr-20 relative">
+                <span class="absolute right-[-45px] top-[-15px]"><div class="badge badge-secondary">+99</div></span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+            </li>
+        </ul>
+    </div>
+    <div class="dropdown dropdown-end lg:hidden">
+      <label tabindex="0" class="btn btn-ghost btn-circle avatar text-white text-3xl mr-8">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+        <li>
+          <a class="">
+            <li class="mr-10">
+                <span><i class="fa-solid fa-house-user"></i></span>
+                <span>HOME</span>
+            </li>
+          </a>
+        </li>
+        <li><a>
+            <li class="mr-10">
+                <span><i class="fa-solid fa-heart"></i></span>
+                <span>WISHLIST</span>
+            </li>
+        </a></li>
+        <li><a>
+            <span><i class="fa-solid fa-trash"></i></span>
+                <span>RECFYCLE BIN</span>
+        </a></li>
+        <li><a>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <span>CART</span>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </header>
     
 
 
-<!-------------------- DaisyUI ---------------------->
-    <script src="https://cdn.tailwindcss.com"></script>
+
 </body>
 </html>
